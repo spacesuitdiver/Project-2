@@ -17,7 +17,7 @@ module.exports = function(app) {
       dbExample
     ) {
       res.render("example", {
-        example: dbExample
+         example: dbExample
       });
     });
   });
